@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15039" started-at="2020-09-08T14:08:22Z" finished-at="2020-09-08T14:08:37Z">
+  <suite name="Suite" duration-ms="15515" started-at="2020-09-08T14:18:40Z" finished-at="2020-09-08T14:18:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15039" started-at="2020-09-08T14:08:22Z" finished-at="2020-09-08T14:08:37Z">
+    <test name="Test" duration-ms="15515" started-at="2020-09-08T14:18:40Z" finished-at="2020-09-08T14:18:56Z">
       <class name="com.testing.scripts.NoonInterviewAPI">
-        <test-method status="PASS" signature="createToken()[pri:1, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createToken" duration-ms="6422" started-at="2020-09-08T19:38:22Z" description="Postive : Create token with valid username and password" finished-at="2020-09-08T19:38:29Z">
+        <test-method status="PASS" signature="createToken()[pri:1, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createToken" duration-ms="6488" started-at="2020-09-08T19:48:40Z" description="Postive : Create token with valid username and password" finished-at="2020-09-08T19:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
-        <test-method status="PASS" signature="createTokenInvalidUser()[pri:2, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createTokenInvalidUser" duration-ms="2189" started-at="2020-09-08T19:38:29Z" description="Negative : Create token with In-Valid username and Valid password" finished-at="2020-09-08T19:38:31Z">
+        <test-method status="PASS" signature="createTokenInvalidUser()[pri:2, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createTokenInvalidUser" duration-ms="2269" started-at="2020-09-08T19:48:47Z" description="Negative : Create token with In-Valid username and Valid password" finished-at="2020-09-08T19:48:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTokenInvalidUser -->
-        <test-method status="PASS" signature="createTokenInvalidPassword()[pri:3, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createTokenInvalidPassword" duration-ms="2230" started-at="2020-09-08T19:38:31Z" description="Negative : Create token with Valid password and In-Valid password" finished-at="2020-09-08T19:38:33Z">
+        <test-method status="PASS" signature="createTokenInvalidPassword()[pri:3, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="createTokenInvalidPassword" duration-ms="1886" started-at="2020-09-08T19:48:49Z" description="Negative : Create token with Valid password and In-Valid password" finished-at="2020-09-08T19:48:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTokenInvalidPassword -->
-        <test-method status="PASS" signature="getHistoryValidToken()[pri:4, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="getHistoryValidToken" duration-ms="2242" started-at="2020-09-08T19:38:33Z" description="Positive : Get user history with valid token" finished-at="2020-09-08T19:38:35Z">
+        <test-method status="PASS" signature="getHistoryValidToken()[pri:4, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="getHistoryValidToken" duration-ms="2833" started-at="2020-09-08T19:48:51Z" description="Positive : Get user history with valid token" finished-at="2020-09-08T19:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getHistoryValidToken -->
-        <test-method status="PASS" signature="getHistoryInvalidToken()[pri:5, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="getHistoryInvalidToken" duration-ms="1876" started-at="2020-09-08T19:38:35Z" description="Negative : Get user history with In-valid token" finished-at="2020-09-08T19:38:37Z">
+        <test-method status="PASS" signature="getHistoryInvalidToken()[pri:5, instance:com.testing.scripts.NoonInterviewAPI@2a2d45ba]" name="getHistoryInvalidToken" duration-ms="1931" started-at="2020-09-08T19:48:54Z" description="Negative : Get user history with In-valid token" finished-at="2020-09-08T19:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getHistoryInvalidToken -->
