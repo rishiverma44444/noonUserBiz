@@ -1,7 +1,7 @@
 # noonUserBiz
 Tech Stack Used : Java, RestAssured, TestNG, Maven
 
-Smoke Test Cases -
+Test Cases -
 
 TC01- Positive : When request have valid username and password then token should get generated.
 TC02- Negative : When request have invalid username and valid password then token should not get generated.
